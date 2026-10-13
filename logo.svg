@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd16a"/><stop offset="1" stop-color="#f39a18"/></linearGradient></defs>
+<g transform="translate(6 7)">
+<path d="M20 23 8 2 33 14 47 4 44 29 55 46 42 68 26 79 10 66 1 44Z" fill="url(#g)" stroke="#151b20" stroke-width="3" stroke-linejoin="round"/>
+<path d="M13 18 18 38 29 48 39 37 42 18 32 26Z" fill="#fff0ca"/>
+<path d="M17 42 27 48 24 61 14 55Z M38 42 29 48 33 61 43 54Z" fill="#20272d"/>
+<path d="M24 62 29 67 34 62 29 59Z" fill="#20272d"/>
+<path d="M22 31 27 34 24 38Z M35 31 31 34 35 38Z" fill="#20272d"/>
+</g>
+<text x="76" y="43" font-family="Arial,Helvetica,sans-serif" font-size="31" font-weight="800" fill="#f7f8fa">Sparkling Foxx</text>
+<text x="76" y="76" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="800" fill="#ffb53e">Studio</text>
+</svg>
