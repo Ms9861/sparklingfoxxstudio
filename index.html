@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#11191f">
 <meta name="description" content="Sparkling Foxx Studio — professional photography, video shooting, events, portraits and creative brand films. 7 years of experience.">
 <title>Sparkling Foxx Studio | Photography & Videography</title>
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -106,7 +106,7 @@ function openPayment(){document.getElementById('paymentModal').classList.add('sh
 function closeModal(id){document.getElementById(id).classList.remove('show');document.body.style.overflow=''}
 document.querySelectorAll('.modal-backdrop').forEach(b=>b.addEventListener('click',e=>{if(e.target===b)closeModal(b.id)}));
 document.addEventListener('keydown',e=>{if(e.key==='Escape')document.querySelectorAll('.modal-backdrop.show').forEach(m=>closeModal(m.id))});
-function sendWhatsApp(text){const number=STUDIO_CONFIG.whatsappNumber;if(!/^\d{10,15}$/.test(number)||number==='910000000000'){alert('Please set your real WhatsApp number in STUDIO_CONFIG near the bottom of index.html, then try again.');return}window.open('https://wa.me/'+number+'?text='+encodeURIComponent(text),'_blank','noopener')}
+function sendWhatsApp(text){const number=STUDIO_CONFIG.whatsappNumber;if(!/^\d{10,15}$/.test(number)||number==='918619562227'){alert('Please set your real WhatsApp number in STUDIO_CONFIG near the bottom of index.html, then try again.');return}window.open('https://wa.me/'+number+'?text='+encodeURIComponent(text),'_blank','noopener')}
 document.getElementById('bookingForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('bName').value.trim(),phone=document.getElementById('bPhone').value.trim(),pkg=document.getElementById('bPackage').value,date=document.getElementById('bDate').value||'Flexible',details=document.getElementById('bDetails').value.trim();sendWhatsApp('Hello Sparkling Foxx Studio! I would like to enquire about a booking.\\nName: '+name+'\\nMobile: '+phone+'\\nPackage: '+pkg+'\\nPreferred date: '+date+'\\nDetails: '+details);});
 document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.currentTarget);sendWhatsApp('Hello Sparkling Foxx Studio! New website enquiry.\\nName: '+d.get('name')+'\\nMobile: '+d.get('phone')+'\\nService: '+d.get('service')+'\\nPreferred date: '+(d.get('date')||'Not set')+'\\nDetails: '+(d.get('message')||'Not provided'));});
 function startPayment(){
